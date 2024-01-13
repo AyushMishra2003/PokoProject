@@ -2,9 +2,9 @@ import React from 'react'
 
 const Pokemon = ({name,image}) => {
   return (
-    <div className='border border-black m[1rem] flex flex-col items-center'>
+    <div className='border  m[1rem] flex flex-col '>
       <div>{name}</div>
-      <div className='w-[3rem] '><img src={image}/></div>
+      <div className='w-[7rem] '><img src={image}/></div>
     </div>
   )
 }
