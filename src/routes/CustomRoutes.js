@@ -16,9 +16,9 @@ import Contact from "../component/Contact/Contact"
 function CustomRouter(){
     return(
               <Routes> 
-                 <Route path="/" element={<Pokodex/>}></Route>
-                 <Route path="/pokemon/:id" element={<PokemonDetail/>}/>
-                 <Route path="/Contact" element={<Contact/>}/>
+                 <Route path="/PokoProject/" element={<Pokodex/>}></Route>
+                 <Route path="/PokoProject/pokemon/:id" element={<PokemonDetail/>}/>
+                 <Route path="/PokoProject/Contact" element={<Contact/>}/>
                  {/* <Route path="/pokomon/:id" element={<Search/>}/> */}
               </Routes>
     )
